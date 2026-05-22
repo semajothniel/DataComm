@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Communication One Page Site</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #eef2f3, #dfe9f3);
+      color: #222;
+      line-height: 1.8;
+    }
+
+    nav {
+      background: #0d47a1;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    header {
+      background: linear-gradient(to right, #1565c0, #42a5f5);
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 55px;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 24px;
+    }
+
+    section {
+      padding: 70px 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .bio-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+      margin-top: 25px;
+    }
+
+    .profile-img {
+      width: 260px;
+      max-width: 100%;
+      border-radius: 20px;
+      object-fit: cover;
+      border: 3px solid #0d47a1;
+    }
+
+    .bio-details {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+      color: #0d47a1;
+      font-size: 38px;
+      border-bottom: 3px solid #42a5f5;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+
+    p, li {
+      font-size: 21px;
+    }
+
+    ul {
+      margin-left: 25px;
+      margin-top: 15px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 15px;
+      margin-top: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 24px;
+      background: #0d47a1;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #1565c0;
+    }
+
+    footer {
+      text-align: center;
+      background: #0d47a1;
+      color: white;
+      padding: 25px;
+      margin-top: 40px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#bio">Bio</a></li>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Data Communication Frontend Website</h1>
+  </header>
+
+  <!-- Bio Section -->
+  <section id="bio">
+    <div class="card">
+      <h2>My Bio</h2>
+      <div class="bio-row">
+        <img src="image/me.png" alt="Profile image of Odoi James" class="profile-img" />
+        <div class="bio-details">
+          <p><strong>Name:</strong> Odoi James</p>
+          <p><strong>ID:</strong> PUIT/24210152</p>
+          <p><strong>Inspiration:</strong> I am inspired to study technology and communication systems because they help people connect and share information across the world efficiently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Summary Section -->
+  <section id="summary">
+    <div class="card">
+      <h2>Summary of What We Did This Semester in Data Communication</h2>
+
+      <p>
+        This semester in Data Communication, we studied how computers and electronic devices communicate with each other through networks. We learned the importance of transferring data accurately, quickly, and securely across communication channels.
+      </p>
+
+      <p>
+        The course introduced us to the basic components of data communication systems, including the sender, receiver, transmission medium, message, and communication protocols. We also explored how different communication devices interact within a network environment.
+      </p>
+
+      <ul>
+        <li><strong>Introduction to Data Communication:</strong> Understanding the meaning and importance of communication systems.</li>
+
+        <li><strong>Components of Data Communication:</strong> Learning about transmitters, receivers, signals, and channels.</li>
+
+        <li><strong>Transmission Media:</strong> Studying guided and unguided media such as fiber optics, twisted pair cables, and wireless communication.</li>
+
+        <li><strong>Network Topologies:</strong> Exploring star, ring, bus, mesh, and tree topologies.</li>
+
+        <li><strong>Types of Networks:</strong> Understanding LAN, MAN, WAN, and their practical applications.</li>
+
+        <li><strong>OSI Reference Model:</strong> Learning the seven layers of network communication and their functions.</li>
+
+        <li><strong>Communication Protocols:</strong> Studying protocols such as TCP/IP and how devices follow rules during communication.</li>
+
+        <li><strong>Error Detection and Correction:</strong> Understanding methods used to ensure reliable data transmission.</li>
+
+        <li><strong>Wireless Communication:</strong> Learning how mobile phones, Wi‑Fi, and satellites communicate.</li>
+
+        <li><strong>Internet and Networking Basics:</strong> Exploring how the internet operates and how devices connect globally.</li>
+      </ul>
+
+      <p>
+        Through this course, we gained knowledge about modern communication technologies and how networks are designed to improve communication in businesses, schools, and everyday life.
+      </p>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources">
+    <div class="card">
+      <h2>Learning Resources</h2>
+
+      <p>
+        Below are some important learning resources related to Data Communication. These materials helped us understand networking concepts, communication systems, and internet technologies throughout the semester.
+      </p>
+
+      <h3 style="margin-top:20px; color:#1565c0;">Course Document</h3>
+
+      <p>
+        Click the button below to access the course document provided during lectures:
+      </p>
+
+      <a href="Assignment/Satellite Communication.pdf" target="_blank" class="btn">Open Course Document</a>
+
+      <h3 style="margin-top: 35px; color:#1565c0;">Educational Video on Data Communication</h3>
+
+      <p>
+        The embedded video below explains the fundamentals of data communication, networking, transmission media, and communication protocols.
+      </p>
+
+      <iframe 
+        src="https://www.youtube.com/embed/7D1nUK9ONEY"
+        title="Data Communication Video"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Data Communication Assignment</p>
+  </footer>
+
+</body>
+</html>
